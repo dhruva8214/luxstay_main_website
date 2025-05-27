@@ -11,6 +11,7 @@ import RoomDetailPage from './pages/RoomDetailPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import BookingPage from './pages/BookingPage';
+import PaymentPage from './pages/PaymentPage';
 import AdminPage from './pages/AdminPage';
 import NotFoundPage from './pages/NotFoundPage';
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/booking" element={<BookingPage />} />
+          <Route path="/payment" element={<PaymentPage />} />
           <Route path="/admin" element={<AdminPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
