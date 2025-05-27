@@ -75,33 +75,6 @@ const HomePage = () => {
             </motion.div>
           </div>
         </div>
-        
-        <motion.div 
-          className="absolute bottom-10 left-0 right-0 flex justify-center"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 1 }}
-        >
-          <div className="flex bg-white/90 backdrop-blur-sm rounded-lg shadow-lg overflow-hidden">
-            {[
-              { icon: <Calendar className="h-5 w-5 text-secondary-500" />, label: "Check In", value: "Select date" },
-              { icon: <Calendar className="h-5 w-5 text-secondary-500" />, label: "Check Out", value: "Select date" },
-              { icon: <Users className="h-5 w-5 text-secondary-500" />, label: "Guests", value: "2 Adults, 0 Children" },
-            ].map((item, i) => (
-              <div key={i} className="px-6 py-4 flex items-center border-r border-gray-200 last:border-0">
-                <div className="mr-3">{item.icon}</div>
-                <div>
-                  <p className="text-xs text-gray-500">{item.label}</p>
-                  <p className="font-medium">{item.value}</p>
-                </div>
-              </div>
-            ))}
-            <button className="bg-primary-600 hover:bg-primary-700 text-white px-6 flex items-center transition-colors">
-              <span className="mr-2">Search</span>
-              <ArrowRight className="h-4 w-4" />
-            </button>
-          </div>
-        </motion.div>
       </section>
 
       {/* Features */}
