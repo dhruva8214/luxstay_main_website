@@ -101,7 +101,7 @@ const HomePage = () => {
               { 
                 title: "Spa & Wellness", 
                 description: "Rejuvenate your body and mind with our range of spa treatments and wellness programs.",
-                image: "https://images.pexels.com/photos/3188/luxury-holiday-vacation-hotel.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                image: "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
               },
             ].map((feature, i) => (
               <motion.div 
