@@ -193,14 +193,14 @@ const BookingPage = () => {
                         {[
                           { 
                             name: "Deluxe King Room", 
-                            price: 299,
+                            price: 24999,
                             description: "Spacious room with a king-sized bed and city views",
                             features: ["King Bed", "City View", "32 m²", "Free WiFi"],
                             image: "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                           },
                           { 
                             name: "Premium Ocean Suite", 
-                            price: 459,
+                            price: 37999,
                             description: "Luxurious suite with stunning ocean views and separate living area",
                             features: ["King Bed", "Ocean View", "48 m²", "Living Area"],
                             image: "https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
@@ -208,7 +208,7 @@ const BookingPage = () => {
                           },
                           { 
                             name: "Executive Suite", 
-                            price: 399,
+                            price: 32999,
                             description: "Elegant suite designed for business travelers with work area",
                             features: ["King Bed", "Work Desk", "42 m²", "Lounge Access"],
                             image: "https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
@@ -241,7 +241,7 @@ const BookingPage = () => {
                                     <p className="text-gray-600">{room.description}</p>
                                   </div>
                                   <div className="text-right">
-                                    <div className="text-xl font-medium">${room.price}</div>
+                                    <div className="text-xl font-medium">₹{room.price.toLocaleString()}</div>
                                     <div className="text-sm text-gray-500">per night</div>
                                   </div>
                                 </div>
@@ -301,19 +301,19 @@ const BookingPage = () => {
                         {[
                           { 
                             name: "Airport Transfer", 
-                            price: 80,
+                            price: 6500,
                             description: "Comfortable private transfer between the airport and hotel",
                             image: "https://images.pexels.com/photos/1178448/pexels-photo-1178448.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                           },
                           { 
                             name: "Breakfast Package", 
-                            price: 35,
+                            price: 2999,
                             description: "Daily gourmet breakfast buffet for each guest",
                             image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                           },
                           { 
                             name: "Spa Treatment", 
-                            price: 120,
+                            price: 9999,
                             description: "60-minute relaxation massage or facial treatment",
                             image: "https://images.pexels.com/photos/3188/luxury-holiday-vacation-hotel.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                           },
@@ -335,7 +335,7 @@ const BookingPage = () => {
                                 <div>
                                   <h3 className="text-lg font-medium mb-2">{extra.name}</h3>
                                   <p className="text-gray-600 mb-4">{extra.description}</p>
-                                  <div className="text-lg font-medium">${extra.price}</div>
+                                  <div className="text-lg font-medium">₹{extra.price.toLocaleString()}</div>
                                 </div>
                                 
                                 <div className="flex items-start">
@@ -717,21 +717,21 @@ const BookingPage = () => {
                     <div className="space-y-2 mb-4">
                       <div className="flex justify-between items-center">
                         <div className="text-gray-600">Room (3 nights)</div>
-                        <div>$1,377.00</div>
+                        <div>₹1,13,997</div>
                       </div>
                       <div className="flex justify-between items-center">
                         <div className="text-gray-600">Taxes & Fees (12%)</div>
-                        <div>$165.24</div>
+                        <div>₹13,680</div>
                       </div>
                       <div className="flex justify-between items-center">
                         <div className="text-gray-600">Breakfast Package</div>
-                        <div>$210.00</div>
+                        <div>₹17,994</div>
                       </div>
                     </div>
                     
                     <div className="flex justify-between items-center pt-4 border-t border-gray-200 text-lg font-medium">
                       <div>Total</div>
-                      <div>$1,752.24</div>
+                      <div>₹1,45,671</div>
                     </div>
                   </div>
                   

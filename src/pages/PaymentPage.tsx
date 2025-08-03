@@ -59,19 +59,19 @@ const PaymentPage = () => {
                     <div className="space-y-2">
                       <div className="flex justify-between">
                         <span className="text-gray-600">Premium Ocean Suite (3 nights)</span>
-                        <span>$1,377.00</span>
+                        <span>₹1,13,997</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-gray-600">Taxes & Fees (12%)</span>
-                        <span>$165.24</span>
+                        <span>₹13,680</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-gray-600">Breakfast Package</span>
-                        <span>$210.00</span>
+                        <span>₹17,994</span>
                       </div>
                       <div className="border-t pt-2 mt-2 font-medium flex justify-between">
                         <span>Total</span>
-                        <span>$1,752.24</span>
+                        <span>₹1,45,671</span>
                       </div>
                     </div>
                   </div>
@@ -152,7 +152,7 @@ const PaymentPage = () => {
                       ) : (
                         <>
                           <Lock className="w-5 h-5 mr-2" />
-                          Pay ${(1752.24).toLocaleString()}
+                          Pay ₹{(145671).toLocaleString()}
                         </>
                       )}
                     </button>

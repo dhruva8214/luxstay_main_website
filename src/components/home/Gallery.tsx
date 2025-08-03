@@ -7,32 +7,32 @@ const Gallery = () => {
 
   const galleryItems = [
     {
-      image: 'https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg',
+      image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
       category: 'Rooms',
       title: 'Luxury Suite'
     },
     {
-      image: 'https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg',
+      image: 'https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
       category: 'Swimming Pool',
       title: 'Infinity Pool'
     },
     {
-      image: 'https://images.pexels.com/photos/1579739/pexels-photo-1579739.jpeg',
+      image: 'https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
       category: 'Dining',
       title: 'Gourmet Restaurant'
     },
     {
-      image: 'https://images.pexels.com/photos/3188/luxury-holiday-vacation-hotel.jpeg',
+      image: 'https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
       category: 'Spa',
       title: 'Wellness Center'
     },
     {
-      image: 'https://images.pexels.com/photos/2725675/pexels-photo-2725675.jpeg',
+      image: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
       category: 'Exterior',
       title: 'Hotel Facade'
     },
     {
-      image: 'https://images.pexels.com/photos/2417842/pexels-photo-2417842.jpeg',
+      image: 'https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
       category: 'Lounge',
       title: 'Relaxation Area'
     },

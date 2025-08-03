@@ -15,7 +15,7 @@ const RoomsPage = () => {
       id: 1,
       name: 'Deluxe King Room',
       description: 'Spacious room with a king-sized bed and modern amenities for a comfortable stay.',
-      price: 299,
+      price: 24999,
       capacity: 2,
       size: 32,
       image: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -25,7 +25,7 @@ const RoomsPage = () => {
       id: 2,
       name: 'Premium Ocean Suite',
       description: 'Luxurious suite with stunning ocean views, separate living area, and premium amenities.',
-      price: 459,
+      price: 37999,
       capacity: 2,
       size: 48,
       image: 'https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -35,7 +35,7 @@ const RoomsPage = () => {
       id: 3,
       name: 'Executive Suite',
       description: 'Elegant suite designed for business travelers with a work area and premium amenities.',
-      price: 399,
+      price: 32999,
       capacity: 2,
       size: 42,
       image: 'https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -45,7 +45,7 @@ const RoomsPage = () => {
       id: 4,
       name: 'Family Suite',
       description: 'Spacious suite with separate bedrooms, perfect for families or small groups.',
-      price: 529,
+      price: 43999,
       capacity: 4,
       size: 68,
       image: 'https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -55,7 +55,7 @@ const RoomsPage = () => {
       id: 5,
       name: 'Penthouse Suite',
       description: 'Our most luxurious suite with panoramic views, private terrace, and premium services.',
-      price: 899,
+      price: 74999,
       capacity: 2,
       size: 96,
       image: 'https://images.pexels.com/photos/3201763/pexels-photo-3201763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -65,7 +65,7 @@ const RoomsPage = () => {
       id: 6,
       name: 'Deluxe Twin Room',
       description: 'Comfortable room with two twin beds, ideal for friends or colleagues traveling together.',
-      price: 279,
+      price: 22999,
       capacity: 2,
       size: 32,
       image: 'https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
@@ -181,7 +181,7 @@ const RoomsPage = () => {
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                     <div className="flex justify-between items-end">
                       <div>
-                        <span className="text-white font-medium">${room.price}</span>
+                        <span className="text-white font-medium">₹{room.price.toLocaleString()}</span>
                         <span className="text-gray-300 text-sm">/night</span>
                       </div>
                       <div className="flex items-center text-white text-sm">

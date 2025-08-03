@@ -16,7 +16,7 @@ const getRoomById = (id: string) => {
         <p>The floor-to-ceiling windows offer stunning city views, while the thoughtfully designed layout maximizes space and comfort. Every detail, from the carefully selected artwork to the ambient lighting, has been curated to create a serene and sophisticated atmosphere.</p>
         <p>Guests in our Deluxe King Rooms also enjoy complimentary high-speed Wi-Fi, a 55-inch smart TV with streaming capabilities, a Nespresso coffee machine, and a fully stocked minibar with premium selections.</p>
       `,
-      price: 299,
+      price: 24999,
       capacity: 2,
       size: 32,
       bedType: 'King',
@@ -209,7 +209,7 @@ const RoomDetailPage = () => {
                   
                   <div className="flex justify-between items-center mb-6">
                     <div>
-                      <span className="text-2xl font-medium">${room.price}</span>
+                      <span className="text-2xl font-medium">₹{room.price.toLocaleString()}</span>
                       <span className="text-gray-500">/night</span>
                     </div>
                     <div className="flex items-center text-yellow-500">
@@ -285,19 +285,19 @@ const RoomDetailPage = () => {
                 {
                   id: 2,
                   name: 'Premium Ocean Suite',
-                  price: 459,
+                  price: 37999,
                   image: 'https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
                 },
                 {
                   id: 3,
                   name: 'Executive Suite',
-                  price: 399,
+                  price: 32999,
                   image: 'https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
                 },
                 {
                   id: 6,
                   name: 'Deluxe Twin Room',
-                  price: 279,
+                  price: 22999,
                   image: 'https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
                 },
               ].map((relatedRoom) => (
@@ -309,7 +309,7 @@ const RoomDetailPage = () => {
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                      <span className="text-white font-medium">${relatedRoom.price}</span>
+                      <span className="text-white font-medium">₹{relatedRoom.price.toLocaleString()}</span>
                       <span className="text-gray-300 text-sm">/night</span>
                     </div>
                   </div>
