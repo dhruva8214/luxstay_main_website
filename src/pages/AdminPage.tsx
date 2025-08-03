@@ -101,7 +101,7 @@ const AdminPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
                   {[
                     { title: 'Total Bookings', value: '1,248', change: '+12%', color: 'bg-blue-500' },
-                    { title: 'Revenue', value: '$286,432', change: '+18%', color: 'bg-green-500' },
+                    { title: 'Revenue', value: '₹2,38,53,264', change: '+18%', color: 'bg-green-500' },
                     { title: 'Occupancy Rate', value: '78%', change: '+5%', color: 'bg-yellow-500' },
                     { title: 'Active Guests', value: '142', change: '-3%', color: 'bg-purple-500' },
                   ].map((stat, idx) => (
@@ -438,7 +438,7 @@ const AdminPage = () => {
                             checkIn: 'Jun 15, 2025', 
                             checkOut: 'Jun 18, 2025',
                             status: 'Confirmed',
-                            amount: '$1,752.24'
+                            amount: '₹1,45,671'
                           },
                           { 
                             id: 'B-12346',
@@ -447,7 +447,7 @@ const AdminPage = () => {
                             checkIn: 'Jun 16, 2025', 
                             checkOut: 'Jun 19, 2025',
                             status: 'Pending',
-                            amount: '$897.00'
+                            amount: '₹74,583'
                           },
                           { 
                             id: 'B-12347',
@@ -456,7 +456,7 @@ const AdminPage = () => {
                             checkIn: 'Jun 17, 2025', 
                             checkOut: 'Jun 20, 2025',
                             status: 'Confirmed',
-                            amount: '$1,197.00'
+                            amount: '₹99,417'
                           },
                           { 
                             id: 'B-12348',
@@ -465,7 +465,7 @@ const AdminPage = () => {
                             checkIn: 'Jun 18, 2025', 
                             checkOut: 'Jun 22, 2025',
                             status: 'Cancelled',
-                            amount: '$1,116.00'
+                            amount: '₹92,664'
                           },
                           { 
                             id: 'B-12349',
@@ -474,7 +474,7 @@ const AdminPage = () => {
                             checkIn: 'Jun 20, 2025', 
                             checkOut: 'Jun 25, 2025',
                             status: 'Confirmed',
-                            amount: '$2,645.00'
+                            amount: '₹2,19,585'
                           },
                           { 
                             id: 'B-12350',
@@ -483,7 +483,7 @@ const AdminPage = () => {
                             checkIn: 'Jun 22, 2025', 
                             checkOut: 'Jun 24, 2025',
                             status: 'Confirmed',
-                            amount: '$1,798.00'
+                            amount: '₹1,49,334'
                           },
                           { 
                             id: 'B-12351',
@@ -492,7 +492,7 @@ const AdminPage = () => {
                             checkIn: 'Jun 25, 2025', 
                             checkOut: 'Jun 28, 2025',
                             status: 'Pending',
-                            amount: '$1,197.00'
+                            amount: '₹99,417'
                           },
                         ].map((booking, idx) => (
                           <tr key={idx} className="hover:bg-gray-50">
